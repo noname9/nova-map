@@ -1,10 +1,8 @@
 <?php
 
-namespace Davidpiesse\Map;
+namespace noname9\Map;
 
 use Laravel\Nova\Fields\Field;
-use Laravel\Nova\Http\Requests\NovaRequest;
-use Grimzy\LaravelMysqlSpatial\Types\Geometry;
 
 class Map extends Field
 {
@@ -93,15 +91,4 @@ class Map extends Field
             break;
         }
     }
-
-    // protected function fillAttributeFromRequest(NovaRequest $request,
-    //                                             $requestAttribute,
-    //                                             $model,
-    //                                             $attribute)
-    // {
-    //     if ($request->exists($requestAttribute)) {
-    //         $geometry = Geometry::fromJson($request[$requestAttribute]);
-    //         $model->{$attribute} = $geometry;
-    //     }
-    // }
 }
