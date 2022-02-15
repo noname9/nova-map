@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidpiesse\Map;
+namespace noname9\Map;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
